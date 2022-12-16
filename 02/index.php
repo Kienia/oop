@@ -2,8 +2,8 @@
 
 require_once('classes/Car.php');
 
-//Создали первый обьект класса Car
-$car1 = new Car();
+//Создали первый обьект класса Product
+$car1 = new Product();
 
 //Если свойство определено как public, можем добавлять значение при создании обьекта.
 $car1->color = 'Red';
@@ -13,8 +13,8 @@ $car1->brand = 'Volvo';
 $car1->speed = 200;
 
 
-//Создали второй обьект класса Car
-$car2 = new Car();
+//Создали второй обьект класса Product
+$car2 = new Product();
 
 //Определили и переопределили свойства
 $car2->color = 'Green';

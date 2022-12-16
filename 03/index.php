@@ -2,8 +2,8 @@
 require_once '../includes/debug.php';
 require_once 'classes/Car.php';
 
-//Создали обьект класса Car
-$car1 = new Car();
+//Создали обьект класса Product
+$car1 = new Product();
 
 //Определили свойства обьекта
 $car1->color = 'Blue';
